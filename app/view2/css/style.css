@@ -1,0 +1,32 @@
+body
+{
+margin :0 auto;
+background: #D2B48C
+}
+.container{
+	width:400px;
+	height:580px;
+	text-align:center;
+	background-color: lightgreen;
+	border-radius:40px;
+	margin:0 auto;
+	margin-top:120px;
+	margin-bottom:200px;
+}
+input {
+	width:200px;
+	height:30px;
+	font-size:15px;
+	border-radius:20px;
+	margin-bottom:20px;
+	padding-left:30px;
+}
+#cancel, #submit{
+	width:90px;
+	height:35px;
+	font-size:18px;
+	border-radius:15px;
+	background-color:green;
+	margin-bottom:20px;
+	padding-left:12px;
+}

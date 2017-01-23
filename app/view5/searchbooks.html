@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> search Books </title>
+<style type="text/css">
+.container{
+	width:400px;
+	height:580px;
+	text-align:center;
+	background-color: lightgreen;
+	border-radius:40px;
+	margin:0 auto;
+	margin-top:120px;
+	margin-bottom:200px;
+			}
+input {
+	width:200px;
+	height:30px;
+	font-size:15px;
+	border-radius:20px;
+	margin-bottom:20px;
+	padding-left:30px;
+	}
+.btn-login1{width:100px;	height:35px; font-size:18px;
+	padding:5px 1px;
+	background-color:#808080;border-radius:8px;}
+.btn-login2{width:150px;	height:35px; font-size:18px;
+	padding:5px 1px;
+	background-color:#CD5C5C;border-radius:8px;}
+</style>
+</head>
+<body>
+<div class="container">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<h1> <b> Search Books</b> </h1><br><br>
+<form>
+<input type= "text" name="isbn" placeholder="Enter ISBN" >
+<h2 style="font-size:15px" "text-align:center"> (or) </h2> <br>
+<input type="text" name="title" placeholder="Enter Title"><br><br><br>
+
+<input type="reset" id="cancel" value="Cancel" class="btn-login1">
+<input type="submit" id="search" value="Search" class="btn-login1"><br><br><br><br>
+<input type="submit" id="search" value="Search By Scan" class="btn-login2">
+
+
+</form>
+</div>
+</body>
+</html>

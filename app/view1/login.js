@@ -4,11 +4,11 @@ angular.module('myApp.view1', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view1', {
-    templateUrl: 'view1/view1.html',
-    controller: 'View1Ctrl'
+    templateUrl: 'view1/login.html',
+    controller: 'view1Ctrl'
   });
 }])
 
-.controller('View1Ctrl', [function() {
+.controller('view1Ctrl', [function() {
 
 }]);
